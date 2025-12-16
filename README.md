@@ -1,28 +1,70 @@
-Project Overview
+This project predicts the price of laptops based on their specifications using Machine Learning regression techniques.
+The goal is to help users estimate laptop prices based on features like brand, RAM, storage, processor, etc.
 
-This project predicts the price of a laptop based on its specifications using machine learning. The model considers features like brand, processor, RAM, storage, GPU, and screen size to estimate the laptop's market price.
+🧠 Problem Statement
 
-Objective:
-Build a regression model that accurately predicts laptop prices to help customers, retailers, and analysts make informed decisions.
+Laptop prices vary widely depending on specifications.
+Manually estimating a fair price is difficult.
+This project uses machine learning to predict laptop prices accurately from given features.
 
-Features Used
+📊 Dataset
 
-Brand – Dell, HP, Apple, Lenovo, etc.
+Dataset contains laptop specifications such as:
 
-Processor – i3, i5, i7, Ryzen 3/5/7, etc.
+Brand
 
-RAM – 4GB, 8GB, 16GB, etc.
+RAM
 
-Storage – HDD/SSD and size in GB
+Storage
 
-GPU – Nvidia, AMD, Intel Integrated
+Processor
 
-Screen Size – Inches
+Operating System
 
-Dataset
+Screen size (if available)
 
-The dataset contains historical laptop listings with specifications and prices.
+Target variable: Laptop Price
 
-Source: Kaggle / scraped from online e-commerce websites.
+(Dataset used for learning and practice purposes)
 
-Format: CSV (laptop_data.csv)
+⚙️ Technologies Used
+
+Python
+
+NumPy
+
+Pandas
+
+Matplotlib / Seaborn
+
+Scikit-learn
+
+Jupyter Notebook
+
+🧪 Machine Learning Approach
+
+Data Cleaning
+
+Exploratory Data Analysis (EDA)
+
+Feature Encoding
+
+Train-Test Split
+
+Regression Model Training
+
+Model Evaluation
+
+🤖 Model Used
+
+Linear Regression (or Random Forest / other — mention what you actually used)
+
+📈 Results
+
+The model predicts laptop prices with reasonable accuracy.
+
+Performance evaluated using metrics like:
+
+R² Score
+
+Mean Squared Error (MSE)
