@@ -1,13 +1,13 @@
 This project predicts the price of laptops based on their specifications using Machine Learning regression techniques.
 The goal is to help users estimate laptop prices based on features like brand, RAM, storage, processor, etc.
 
- Problem Statement
+ # Problem Statement
 
 Laptop prices vary widely depending on specifications.
 Manually estimating a fair price is difficult.
 This project uses machine learning to predict laptop prices accurately from given features.
 
-Dataset
+# Dataset
 
 Dataset contains laptop specifications such as:
 
@@ -27,7 +27,7 @@ Target variable: Laptop Price
 
 (Dataset used for learning and practice purposes)
 
-⚙️ Technologies Used
+# Technologies Used
 
 Python
 
@@ -41,7 +41,7 @@ Scikit-learn
 
 Jupyter Notebook
 
-🧪 Machine Learning Approach
+# Machine Learning Approach
 
 Data Cleaning
 
@@ -59,7 +59,7 @@ Model Used
 
 Linear Regression (or Random Forest / other — mention what you actually used)
 
- Results
+ # Results
 
 The model predicts laptop prices with reasonable accuracy.
 
@@ -68,4 +68,5 @@ Performance evaluated using metrics like:
 R² Score
 
 Mean Squared Error (MSE)
+
 
